@@ -1,0 +1,127 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+    }
+
+    .navigation-wrapper > .center-column > .banner-image img {
+        width: 200px;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .footer-wrapper > .links-wrapper {
+        width: 100%;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .links-wrapper > .nav-link {
+        margin: 10px 0px;
+        font-size: 1.5em;
+        width: 120px;
+    }
+
+    .signature-section {
+        padding: 50px 10px;
+    }
+
+    .features-section {
+        height: 100%;
+    }
+
+    .features-section > .columns-wrapper {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+
+    }
+
+    .features-section > .columns-wrapper > .column {
+        height: 100%;
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .skewed-header > .header-bg {
+        background-size: 600px;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+        flex-direction: column;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+        width: max-content;
+    }
+
+    .page-container {
+        padding: 0px 21px;
+    }
+
+    .page-container > .content-wrapper {
+        width: 100%;
+    }
+
+    .page-container > .content-wrapper > .about-image > #sullivan-family {
+        margin: 0px 0px 25px 0px;
+        width: 100%;
+    }
+
+    .square {
+        grid-template-columns: 1fr !important;
+    }
+
+    .square > .square-text-wrapper {
+        order: 1;
+    }
+
+    .square > .square-image-wrapper {
+        order: 2;
+    }
+
+    .spacer60 {
+        height: 0px;
+    }
+
+    .squares-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .contact-grid-wrapper {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .contact-form input {
+        padding: 1.5rem 0rem;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+    }
+}
